@@ -1,0 +1,35 @@
+{
+  "name": "lucid-sdk",
+  "version": "0.1.0",
+  "description": "Professional TypeScript SDK for LucidTrade",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "lucidtrade",
+    "trading",
+    "sdk",
+    "crypto",
+    "finance",
+    "typescript"
+  ],
+  "author": "LucidTrade Team",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "crypto-js": "^4.2.0",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3",
+    "@types/node": "^22.10.7",
+    "@types/crypto-js": "^4.2.2",
+    "@daydreamsai/core": "^0.1.0"
+  },
+  "peerDependencies": {
+    "@daydreamsai/core": "^0.1.0"
+  }
+}
