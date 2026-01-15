@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg id="banner-svg" width="553" height="183" viewBox="0 0 553 183" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
-    </style>
-    <!-- 纯黑底 -->
     <rect width="553" height="183" fill="#000000"/>
     
     <defs>
-        <!-- 核心渐变：与 Logo 色准一致 -->
         <radialGradient id="fog" cx="50%" cy="50%" r="70%">
             <stop offset="0%" style="stop-color:#004455; stop-opacity:0.3" />
             <stop offset="100%" style="stop-color:#000000; stop-opacity:0" />
@@ -19,29 +14,26 @@
         </linearGradient>
     </defs>
 
-    <!-- 中心柔光氛围 -->
     <rect width="553" height="183" fill="url(#fog)"/>
 
-    <!-- 背景几何暗纹：Logo 结构的抽象提取 -->
     <g opacity="0.05">
         <path d="M-50 140V100H150L200 40" stroke="white" stroke-width="20" />
         <path d="M600 40V80H400L350 140" stroke="#00F0FF" stroke-width="20" />
     </g>
 
-    <!-- 文字排图 -->
-    <!-- 中间文字 LucidTrade -->
     <text x="50%" y="54%" 
           dominant-baseline="middle" 
           text-anchor="middle" 
           fill="url(#text-grad)" 
-          style="font-family: 'Space Grotesk', sans-serif; font-size: 32px; font-weight: 300; letter-spacing: 0.8em;">
+          font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'"
+          font-size="32" 
+          font-weight="300" 
+          letter-spacing="0.8em">
         LUCIDTRADE
     </text>
 
-    <!-- 极细装饰线：增加工业精密感 -->
     <line x1="230" y1="120" x2="323" y2="120" stroke="#00CCDD" stroke-width="0.5" opacity="0.5" />
     
-    <!-- 边缘坐标刻度 -->
     <g stroke="#1e293b" stroke-width="0.5" opacity="0.4">
         <path d="M20 20H40M20 20V40" />
         <path d="M513 163H533M533 163V143" />
