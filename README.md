@@ -126,7 +126,7 @@ try {
 }
 ```
 
-## � Daydreams AI Integration
+## 🧠 Daydreams AI Integration
 
 Build autonomous trading agents in minutes using [Daydreams AI](https://github.com/daydreamsai/daydreams). The SDK exports a pre-configured context with all necessary actions.
 
@@ -167,7 +167,7 @@ const agent = createDreams({
 await agent.run();
 ```
 
-## �🤝 Contributing
+## 🤝 Contributing
 
 We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for details.
 
