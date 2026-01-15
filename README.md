@@ -1,4 +1,6 @@
-![LucidTrade SDK Banner](assets/banner.svg)
+<p align="center">
+  <img src="assets/banner.svg" width="100%" alt="LucidTrade SDK Banner" />
+</p>
 <p align="center">
   <img src="assets/logo.svg" width="120" alt="LucidTrade Logo" />
 </p>
@@ -7,7 +9,6 @@
 
 [![npm version](https://img.shields.io/npm/v/lucid-sdk.svg)](https://www.npmjs.com/package/lucid-sdk)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Build Status](https://github.com/LucidTrade/lucid-sdk/actions/workflows/ci.yml/badge.svg)](https://github.com/LucidTrade/lucid-sdk/actions)
 
 **The Professional, High-Performance SDK for the LucidTrade Cryptocurrency Exchange.**
 
